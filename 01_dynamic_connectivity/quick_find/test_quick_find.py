@@ -1,12 +1,10 @@
 import unittest
 from .quick_find import QuickFind
 
+
 class TestQuickFind(unittest.TestCase):
-
     def setUp(self):
-        self.data = range(0,10)
-        self.quick_find = QuickFind(self.data)
-
+        self.quick_find = QuickFind(range(0, 10))
 
     def perform_union(self):
         self.quick_find.union_(5, 0)
