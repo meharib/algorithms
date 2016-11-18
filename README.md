@@ -4,4 +4,5 @@ Python implementation of examples and exercise described in the Algorithms book 
 - Dynamic Connectivity
   - quick find
   - quick union
+  - weighted quick union
 - 
